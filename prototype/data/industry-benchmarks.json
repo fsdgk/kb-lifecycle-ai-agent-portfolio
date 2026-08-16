@@ -1,0 +1,58 @@
+[
+  {
+    "templateId": "FOOD_CAFE",
+    "label": "Food and cafe",
+    "status": "PROTOTYPE_REFERENCE_RANGE",
+    "disclosure": "These are prototype reference ranges for discussion only; they are not official industry averages or financial advice.",
+    "ranges": {
+      "labor": { "low": 0.2, "high": 0.35 },
+      "rent": { "low": 0.08, "high": 0.16 },
+      "materialsPurchases": { "low": 0.25, "high": 0.4 },
+      "platformFees": { "low": 0, "high": 0.08 },
+      "otherCustomCosts": { "low": 0.02, "high": 0.15 },
+      "operatingMargin": { "low": 0.05, "high": 0.18 }
+    }
+  },
+  {
+    "templateId": "RETAIL",
+    "label": "Retail",
+    "status": "PROTOTYPE_REFERENCE_RANGE",
+    "disclosure": "These are prototype reference ranges for discussion only; they are not official industry averages or financial advice.",
+    "ranges": {
+      "labor": { "low": 0.1, "high": 0.25 },
+      "rent": { "low": 0.06, "high": 0.15 },
+      "materialsPurchases": { "low": 0.35, "high": 0.65 },
+      "platformFees": { "low": 0, "high": 0.06 },
+      "otherCustomCosts": { "low": 0.02, "high": 0.12 },
+      "operatingMargin": { "low": 0.03, "high": 0.15 }
+    }
+  },
+  {
+    "templateId": "PERSONAL_SERVICE",
+    "label": "Personal service",
+    "status": "PROTOTYPE_REFERENCE_RANGE",
+    "disclosure": "These are prototype reference ranges for discussion only; they are not official industry averages or financial advice.",
+    "ranges": {
+      "labor": { "low": 0.3, "high": 0.55 },
+      "rent": { "low": 0.08, "high": 0.18 },
+      "materialsPurchases": { "low": 0.03, "high": 0.15 },
+      "platformFees": { "low": 0, "high": 0.05 },
+      "otherCustomCosts": { "low": 0.01, "high": 0.1 },
+      "operatingMargin": { "low": 0.08, "high": 0.25 }
+    }
+  },
+  {
+    "templateId": "GENERAL",
+    "label": "General business",
+    "status": "PROTOTYPE_REFERENCE_RANGE",
+    "disclosure": "These are prototype reference ranges for discussion only; they are not official industry averages or financial advice.",
+    "ranges": {
+      "labor": { "low": 0.15, "high": 0.4 },
+      "rent": { "low": 0.07, "high": 0.18 },
+      "materialsPurchases": { "low": 0.1, "high": 0.45 },
+      "platformFees": { "low": 0, "high": 0.08 },
+      "otherCustomCosts": { "low": 0.02, "high": 0.12 },
+      "operatingMargin": { "low": 0.03, "high": 0.2 }
+    }
+  }
+]

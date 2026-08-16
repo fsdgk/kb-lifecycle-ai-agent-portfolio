@@ -1,0 +1,66 @@
+[
+  {
+    "signalId": "signal-footfall-weekend",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "asOf": "2026-08-01",
+    "refreshTier": "WEEKLY",
+    "metric": "WEEKEND_FOOTFALL_INDEX",
+    "value": 118,
+    "unit": "INDEX"
+  },
+  {
+    "signalId": "signal-restaurant-competition",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "asOf": "2026-08-01",
+    "refreshTier": "MONTHLY",
+    "metric": "NEARBY_FOREIGN_RESTAURANT_COUNT",
+    "value": 14,
+    "unit": "COUNT"
+  },
+  {
+    "signalId": "signal-delivery-share",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "asOf": "2027-02-01",
+    "refreshTier": "MONTHLY",
+    "metric": "DELIVERY_SALES_SHARE",
+    "value": 0.31,
+    "unit": "RATIO"
+  },
+  {
+    "signalId": "signal-site-candidate-a",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "source": "syntheticSiteComparison",
+    "asOf": "2026-08-01",
+    "refreshTier": "WEEKLY",
+    "maxAgeHours": 168,
+    "metric": "SITE_CANDIDATE_SCORE_INPUT",
+    "siteId": "A",
+    "value": {
+      "demandIndex": 110,
+      "costIndex": 88,
+      "competitionIndex": 74
+    },
+    "unit": "SYNTHETIC_SCORE_INPUTS"
+  },
+  {
+    "signalId": "signal-site-candidate-b",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "source": "syntheticSiteComparison",
+    "asOf": "2026-08-01",
+    "refreshTier": "WEEKLY",
+    "maxAgeHours": 168,
+    "metric": "SITE_CANDIDATE_SCORE_INPUT",
+    "siteId": "B",
+    "value": {
+      "demandIndex": 118,
+      "costIndex": 94,
+      "competitionIndex": 62
+    },
+    "unit": "SYNTHETIC_SCORE_INPUTS"
+  }
+]

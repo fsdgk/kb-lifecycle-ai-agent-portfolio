@@ -1,0 +1,145 @@
+{
+  "scenarioId": "seoul-croatian-restaurant",
+  "scenarioLabel": "서울 성동구 크로아티아 음식점",
+  "synthetic": true,
+  "business": {
+    "industryCategory": "CROATIAN_RESTAURANT",
+    "regionCode": "SEOUL",
+    "districtCode": "SEONGDONG",
+    "plannedStartupCostKrw": 112000000,
+    "ownCapitalKrw": 60000000
+  },
+  "snapshots": [
+    {
+      "stage": "PRE_START",
+      "asOf": "2026-08-01T06:00:00.000Z",
+      "operations": {
+        "leaseCommitmentStatus": "NOT_SIGNED",
+        "foodServicePermitStatus": "NOT_APPLIED",
+        "supplierResilienceStatus": "SINGLE_IMPORT_CHANNEL",
+        "menuCostingStatus": "DRAFT"
+      },
+      "finance": {
+        "kind": "STARTUP_FUNDING"
+      },
+      "marketSignals": [
+        {
+          "signalId": "signal-footfall-weekend",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "seoulEstimatedSales",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "WEEKLY",
+          "metric": "WEEKEND_FOOTFALL_INDEX",
+          "value": 118,
+          "unit": "INDEX"
+        },
+        {
+          "signalId": "signal-restaurant-competition",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "nearbyForeignRestaurantCount",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "MONTHLY",
+          "metric": "NEARBY_FOREIGN_RESTAURANT_COUNT",
+          "value": 14,
+          "unit": "COUNT"
+        },
+        {
+          "signalId": "signal-site-candidate-a",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "syntheticSiteComparison",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "WEEKLY",
+          "metric": "SITE_CANDIDATE_SCORE_INPUT",
+          "siteId": "A",
+          "value": {
+            "demandIndex": 110,
+            "costIndex": 88,
+            "competitionIndex": 74
+          },
+          "unit": "SYNTHETIC_SCORE_INPUTS"
+        },
+        {
+          "signalId": "signal-site-candidate-b",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "syntheticSiteComparison",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "WEEKLY",
+          "metric": "SITE_CANDIDATE_SCORE_INPUT",
+          "siteId": "B",
+          "value": {
+            "demandIndex": 118,
+            "costIndex": 94,
+            "competitionIndex": 62
+          },
+          "unit": "SYNTHETIC_SCORE_INPUTS"
+        }
+      ]
+    },
+    {
+      "stage": "OPERATING_CRISIS",
+      "asOf": "2026-08-01T06:00:00.000Z",
+      "operations": {
+        "leaseCommitmentStatus": "ACTIVE",
+        "foodServicePermitStatus": "ACTIVE",
+        "supplierResilienceStatus": "SINGLE_IMPORT_CHANNEL",
+        "menuCostingStatus": "REVIEW_OVERDUE"
+      },
+      "finance": {
+        "kind": "CASHFLOW_FORECAST",
+        "openingBalanceKrw": 7000000,
+        "dailyFlowsKrw": [1000000, -3000000, -6000000],
+        "days": 3
+      },
+      "marketSignals": [
+        {
+          "signalId": "signal-footfall-operating",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "seoulEstimatedSales",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "WEEKLY",
+          "metric": "WEEKEND_FOOTFALL_INDEX",
+          "value": 96,
+          "unit": "INDEX"
+        },
+        {
+          "signalId": "signal-competition-operating",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "nearbyForeignRestaurantCount",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "MONTHLY",
+          "metric": "NEARBY_FOREIGN_RESTAURANT_COUNT",
+          "value": 16,
+          "unit": "COUNT"
+        },
+        {
+          "signalId": "signal-delivery-operating",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "deliverySalesShare",
+          "asOf": "2026-08-01T00:00:00.000Z",
+          "refreshTier": "MONTHLY",
+          "metric": "DELIVERY_SALES_SHARE",
+          "value": 0.31,
+          "unit": "RATIO"
+        },
+        {
+          "signalId": "signal-ingredient-cost-operating",
+          "scenarioId": "seoul-croatian-restaurant",
+          "synthetic": true,
+          "source": "ingredientCostIndex",
+          "asOf": "2026-08-01T05:30:00.000Z",
+          "refreshTier": "REALTIME",
+          "metric": "INGREDIENT_COST_INDEX",
+          "value": 1.14,
+          "unit": "INDEX"
+        }
+      ]
+    }
+  ]
+}

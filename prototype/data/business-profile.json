@@ -1,0 +1,35 @@
+{
+  "scenarioId": "scenario-seoul-croatia-001",
+  "synthetic": true,
+  "scenarioLabel": "서울 성동구 크로아티아 음식점 예비창업자",
+  "business": {
+    "name": "아드리아 식당",
+    "industryCode": "I56194",
+    "industryName": "외국식 음식점업",
+    "regionCode": "SEOUL",
+    "districtCode": "SEONGDONG",
+    "targetOpeningDate": "2026-10-01",
+    "ownCapitalKrw": 60000000,
+    "plannedStartupCostKrw": 112000000
+  },
+  "snapshots": [
+    {
+      "snapshotId": "snapshot-pre-start-2026-08-01",
+      "lifecycleStage": "PRE_START",
+      "asOf": "2026-08-01",
+      "targetOpeningDate": "2026-10-01",
+      "cashAvailableKrw": 60000000,
+      "plannedStartupCostKrw": 112000000,
+      "businessRegistrationStatus": "NOT_REGISTERED"
+    },
+    {
+      "snapshotId": "snapshot-operating-month-4-2027-02-01",
+      "lifecycleStage": "OPERATING_MONTH_4",
+      "asOf": "2027-02-01",
+      "monthsOperating": 4,
+      "businessRegistrationStatus": "ACTIVE",
+      "cashAvailableKrw": 18400000,
+      "monthlySalesKrw": 19600000
+    }
+  ]
+}

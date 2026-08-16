@@ -1,0 +1,29 @@
+[
+  {
+    "transactionId": "txn-001",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "occurredAt": "2026-08-03",
+    "type": "CAPITAL_DEPOSIT",
+    "amountKrw": 60000000,
+    "description": "창업자 자기자본 입금"
+  },
+  {
+    "transactionId": "txn-002",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "occurredAt": "2026-09-10",
+    "type": "LEASE_DEPOSIT",
+    "amountKrw": -30000000,
+    "description": "성동구 점포 임차보증금"
+  },
+  {
+    "transactionId": "txn-003",
+    "scenarioId": "scenario-seoul-croatia-001",
+    "synthetic": true,
+    "occurredAt": "2027-02-01",
+    "type": "MONTHLY_SALES",
+    "amountKrw": 19600000,
+    "description": "운영 4개월차 월 매출"
+  }
+]

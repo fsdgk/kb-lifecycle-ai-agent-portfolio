@@ -1,0 +1,32 @@
+[
+  {
+    "sourceId": "mss-2026-integrated",
+    "organization": "중소벤처기업부",
+    "officialUrl": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1064353&cbIdx=310"
+  },
+  {
+    "sourceId": "seoul-small-business-support",
+    "organization": "서울특별시",
+    "officialUrl": "https://news.seoul.go.kr/economy/small-business-supports"
+  },
+  {
+    "sourceId": "seoul-online-sales-archive",
+    "organization": "서울특별시",
+    "officialUrl": "https://news.seoul.go.kr/economy/archives/572407"
+  },
+  {
+    "sourceId": "gyeonggi-2026-fund",
+    "organization": "경기도",
+    "officialUrl": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=s017&number=68928"
+  },
+  {
+    "sourceId": "incheon-small-business-support",
+    "organization": "인천광역시",
+    "officialUrl": "https://www.incheon.go.kr/IC010205/view?repDt=2026-04-21&repSeq=DOM_0000000014584048"
+  },
+  {
+    "sourceId": "seoul-exit-support",
+    "organization": "서울특별시",
+    "officialUrl": "https://news.seoul.go.kr/economy/archives/571888"
+  }
+]

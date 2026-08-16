@@ -1,0 +1,14 @@
+{
+  "entities": ["BUSINESS", "SNAPSHOT", "TRANSACTION", "MARKET_SIGNAL", "POLICY", "REGION", "LIFECYCLE_STAGE", "SUPPORT_TYPE"],
+  "relations": [
+    { "from": "BUSINESS", "type": "HAS_SNAPSHOT", "to": "SNAPSHOT" },
+    { "from": "BUSINESS", "type": "HAS_TRANSACTION", "to": "TRANSACTION" },
+    { "from": "BUSINESS", "type": "OBSERVES", "to": "MARKET_SIGNAL" },
+    { "from": "BUSINESS", "type": "LOCATED_IN", "to": "REGION" },
+    { "from": "SNAPSHOT", "type": "AT_STAGE", "to": "LIFECYCLE_STAGE" },
+    { "from": "POLICY", "type": "AVAILABLE_IN", "to": "REGION" },
+    { "from": "POLICY", "type": "SUPPORTS_STAGE", "to": "LIFECYCLE_STAGE" },
+    { "from": "POLICY", "type": "PROVIDES", "to": "SUPPORT_TYPE" },
+    { "from": "POLICY", "type": "REQUIRES", "to": "REQUIRED_CHECK" }
+  ]
+}

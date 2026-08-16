@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+*.pt
+*.pth
+*.onnx
+*.pdf
+*.zip
+coverage/
+*.log
