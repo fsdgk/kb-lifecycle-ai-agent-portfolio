@@ -84,6 +84,7 @@ npm.cmd start
 
 ## 프로토타입과 프로덕션의 차이
 
+- Prototype values are user-entered or synthetic; industry ranges are labeled `PROTOTYPE_REFERENCE_RANGE`; policy records are official-source snapshots. ChatGPT aided the prototype agent-result design, while final architecture, calculations, security boundaries, and test results were reviewed by the developer. The production target is an enterprise internal local LLM behind the model gateway. No local model was installed, run, or evaluated; market feeds remain `PLANNED_INTEGRATION`.
 - 현재 실행 결과는 결정론적 템플릿과 검증기로 생성됩니다.
 - 실제 LLM은 설치·실행·평가하지 않았으며, 프로덕션에서는 기업 내부 로컬 LLM을 모델 게이트웨이 뒤에 연결하는 구조를 목표로 합니다.
 - 주변 점포, 임대 매물, 신규 입점, 유동인구 등 실시간 상권 제공자는 `PLANNED_INTEGRATION` 상태입니다.
